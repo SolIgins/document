@@ -18,11 +18,15 @@ export default defineUserConfig({
     ],
 
     lang: 'zh-CN',
-    title: 'Lip知识库',
+    title: 'Videns-Lip知识库',
     description: '这是我的第一个 VuePress 站点',
 
     theme: defaultTheme({
-        logo: '/images/me-logo.png'
+        logo: '/images/me-logo.png',
+        // 配置目录
+        navbar: [
+
+        ]
     }),
 
     plugins: [
