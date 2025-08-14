@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-start",
+  "version": "1.0.0",
+  "description": "VuePress个人知识库",
+  "license": "ISC",
+  "author": "lip",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.112",
+    "@vuepress/theme-default": "^2.0.0-rc.112",
+    "vuepress": "^2.0.0-rc.24"
+  },
+  "dependencies": {
+    "sass-embedded": "^1.89.2"
+  }
+}
