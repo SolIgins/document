@@ -25,6 +25,7 @@ export default defineUserConfig({
         logo: '/images/me-logo.png',
         // 配置目录
         navbar: [
+            { text: '首页', link: '/' },
 
         ]
     }),
